@@ -1,0 +1,34 @@
+﻿# R files
+.Rhistory
+.Rapp.history  
+.RData
+.Ruserdata
+*.Rproj
+.Rproj.user/
+.Renviron
+
+# Exclude entire Download directory and its contents
+Download/
+# But keep the README we'll create
+!Download/README.md
+
+# Large file types anywhere
+*.csv
+*.geojson
+*.kml
+*.tif
+*.zip
+*.dbf
+*.shp
+*.shx
+*.prj
+*.cpg
+*.gpkg
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
